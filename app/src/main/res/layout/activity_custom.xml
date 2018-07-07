@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res/com.example.chopin.customview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToggleView.CustomActivity">
+
+    <com.example.chopin.customview.ToggleView.ToggleView
+        android:id="@+id/toggleview"
+        android:layout_centerInParent="true"
+        customview:switch_background="@drawable/switch_background"
+        customview:slide_button="@drawable/slide_button"
+        customview:switch_state="false"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+</RelativeLayout>
